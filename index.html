@@ -106,17 +106,24 @@
   </div>
 </section>
 
+<!-- CONTACT-SECTION -->
+
 <section class="container contact-section">
   <h5 class="contact-section-heading">Связаться с нами</h5>
-  <div class="container contact-box">
-    <form action="#" method="GET">
-      <input type="text" id="name" name="name" placeholder="Имя">
-      <input type="tel" id="tel" name="tel" placeholder="Номер телефона">
-      <input type="text" id="name" name="name" placeholder="Имя">
-      <input type="text" id="name" name="name" placeholder="Имя">
+  <div class="contact-box">
+    <form class="contact-section-form" action="#" method="GET">
+      <input class="contact-input" type="text" id="name" name="name" placeholder="Имя">
+      <input class="contact-input" type="tel" id="tel" name="tel" placeholder="Номер телефона*" required>
+      <input class="contact-input" type="email" id="email" name="email" placeholder="E-mail*" required>
+      <input class="contact-input" type="text" id="name" name="name" placeholder="Интересующий товар/услуга">
+      <textarea class="contact-input" name="text" id="text" cols="30" rows="10" placeholder="Сообщение*"></textarea required>
     </form>
+    <img class="contact-img" src="img/contacts-img.png" srcset="img/contacts-img.png 1x, img/contacts-img@2x.png 2x" alt="contact image" width="749" height="369">
   </div>
-
+  <p class="contact-section-text">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
+  <form action="#" method="GET">
+    <input class="contact-submit" type="submit" value="Отправить    &rarr;">
+  </form>
 </section>
 
 </body>
